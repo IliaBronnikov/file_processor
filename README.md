@@ -16,7 +16,7 @@ docker-compose up
 
 - POST запрос
   ```
-  curl --request POST 'http://127.0.0.1:8000/' -F '@/home/petehouston/test.xlsx' --header "Authorization: Bearer footokenbar"
+  curl --request POST 'http://127.0.0.1:8000/' -F '@/home/user/test.xlsx' --header "Authorization: Bearer footokenbar"
   ```
 - GET запрос
   ```
