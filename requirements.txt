@@ -1,0 +1,9 @@
+fastapi==0.70.1
+uvicorn==0.16.0
+celery==5.2.1
+redis==4.0.2
+openpyxl==3.0.9
+pytest==6.2.5
+aiofiles==0.8.0
+python-multipart==0.0.5
+sqlalchemy==1.4.28
