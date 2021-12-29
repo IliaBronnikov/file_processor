@@ -20,7 +20,7 @@ docker-compose up
   ```
 - GET запрос
   ```
-  curl --request GET 'http://127.0.0.1:8000/status?task_id=c2fa12ce-29a9-4d23-8208-9ab48e7ef1c2'
+  curl --request GET 'http://127.0.0.1:8000/status?task_id=c2fa12ce-29a9-4d23-8208-9ab48e7ef1c2' --header "Authorization: Bearer footokenbar"
   ```
 
 
